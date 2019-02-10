@@ -17,3 +17,8 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+# Sass settings
+sass:
+    sass_dir: _sass
+    style: compressed
