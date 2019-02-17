@@ -1,0 +1,32 @@
+section {
+  display: grid;
+  grid-template-areas: 'purpose'
+                        'story'
+                        'skills';
+  div {
+    padding: .5em;
+    h3 {
+      padding-top: 1em;
+    }
+    i, h3 {
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+    }
+    p {
+      padding: 1em 1.3em 0 1.3em;
+    }
+  }
+}
+
+.purpose {
+  grid-area: purpose;
+}
+
+.story {
+  grid-area: story;
+}
+
+.skills {
+  grid-area: skills;
+}
