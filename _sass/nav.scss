@@ -1,11 +1,32 @@
-.img-wrapper {
+body {
   position: relative;
-  width: 200px;
-  height: auto;
-  display: block;
+}
 
-  img {
-    max-width: 100%;
-    height: auto;
+nav {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  height: 3em;
+  background-color: rgb(113,174,198);
+
+  a {
+    font-variant: small-caps;
+    font-style: normal;
+    padding: .7em;
+    text-decoration: none;
+    color: black;
+    transition: .3s;
   }
+
+  a:hover {
+      font-size: 1.2em;
+    }
+}
+
+.scroll-test {
+  height: 150vh;
+  width: 50%;
+  background-color: lightgray;
 }
