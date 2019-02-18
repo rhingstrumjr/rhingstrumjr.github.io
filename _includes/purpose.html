@@ -1,8 +1,14 @@
 <section class='purpose'>
-  <div class="define-problem">
-    <i class="fab fa-discourse fa-3x"></i>
+  <div class="why">
+    <div class="puzzle-animation">
+      <img src="assets/images/puzzle-piece-horizontal.png" alt="puzzle piece">
+      <img src="assets/images/puzzle-piece-vertical.png" alt="puzzle piece">
+    </div>
     <h3>I Love Puzzles!</h3>
-    <p>Puzzles make life interesting, right?  What I love about working with computers is that solving the problem is like a big puzzle.</p>
+    <p>Why am I learning to code?</p>
+    <p>Puzzles make life interesting, right?  What I love about working with
+       computers is that solving the problem is like a big puzzle.  Coding
+       is a way for me to get lost in puzzles.</p>
   </div>
 
   <div class="current-work">
@@ -11,9 +17,30 @@
 
   </div>
 
-  <div class="story">
+  <div class="favorite-work">
     <i class="fas fa-book-open fa-3x"></i>
     <h3>Some of my favorite past puzzles...</h3>
+
+    <!-- Create project cards for my favorite projects -->
+    {% for item in site.data.favoriteprojects %}
+      <div class="project-card">
+        <h4>{{item.name}}</h4>
+        <div class="img-summary-wrapper">
+
+          <!-- Image of the project -->
+          <div class="project-img">
+            <img src="{{ item.image-link }}" alt="A favorite project">
+          </div>
+          <!-- Summary shows up when hovered over image -->
+          <div class="hover-summary">
+            <p>{{ item.summary }}</p>
+          </div>
+        </div>
+        <!-- Links to the project's GitHub and active site -->
+        <p>See it on <a href="{{ item.github-link }}"><i class="fab fa-github"></i></a>
+        <p>See it <a href="{{ item.active-link }}">LIVE</a>!</p>
+      </div>
+    {% endfor %}
 
     <p>Browse through <a href="portfolio.html">my portfolio</a> to see the rest!</p>
   </div>

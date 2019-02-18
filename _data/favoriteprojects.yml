@@ -1,0 +1,15 @@
+- name: FreeCodeCamp Product Landing Page Project
+  summary: An example of a product landing page.
+  github-link: https://github.com/rhingstrumjr/product-landing-FCC
+  active-link: https://rhingstrumjr.github.io/product-landing-FCC/
+  image-link: assets/images/product-landing.JPG
+- name: FreeCodeCamp Tribute Page Project
+  summary: A tribute page website dedicated to Ogre2, a former Halo Professional.
+  github-link: https://github.com/rhingstrumjr/TributePageFCC
+  active-link: https://rhingstrumjr.github.io/TributePageFCC/
+  image-link: assets/images/tribute-page.JPG
+- name: Pixel Art Maker - Udacity Nanodegree Project
+  summary: A site where you can choose a color and fill in cells of a table.
+  github-link: https://github.com/rhingstrumjr/PixelArtMaker
+  active-link: https://rhingstrumjr.github.io/PixelArtMaker/
+  image-link: assets/images/pixel-art-maker.JPG
