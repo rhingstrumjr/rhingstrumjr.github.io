@@ -1,0 +1,24 @@
+- name: FreeCodeCamp Portfolio Project
+  summary: A website created to show off a portfolio of work for FreeCodeCamp projects.
+  github-link: https://github.com/rhingstrumjr/fcc-portfolio
+  active-link: https://rhingstrumjr.github.io/fcc-portfolio/
+- name: FreeCodeCamp Documentation Project
+  summary: A website created to demonstrate a documentation website.  I made it for Jekyll.
+  github-link: https://github.com/rhingstrumjr/Jekyll-Site-Documentation
+  active-link: https://rhingstrumjr.github.io/Jekyll-Site-Documentation/
+- name: FreeCodeCamp Product Landing Page Project
+  summary: An example of a product landing page.
+  github-link: https://github.com/rhingstrumjr/product-landing-FCC
+  active-link: https://rhingstrumjr.github.io/product-landing-FCC/
+- name: FreeCodeCamp Survey Form Project
+  summary: A survey form created using HTML and CSS.
+  github-link: https://github.com/rhingstrumjr/survey-formFCC
+  active-link: https://rhingstrumjr.github.io/survey-formFCC/
+- name: FreeCodeCamp Tribute Page Project
+  summary: A tribute page website dedicated to Ogre2, a former Halo Professional.
+  github-link: https://github.com/rhingstrumjr/TributePageFCC
+  active-link: https://rhingstrumjr.github.io/TributePageFCC/
+- name: Pixel Art Maker - Udacity Nanodegree Project
+  summary: A site where you can choose a color and fill in cells of a table.
+  github-link: https://github.com/rhingstrumjr/PixelArtMaker
+  active-link: https://rhingstrumjr.github.io/PixelArtMaker/
