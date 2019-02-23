@@ -14,9 +14,20 @@ section {
       width: 100%;
       text-align: center;
     }
-    p {
-      padding: 1em 1.3em 0 1.3em;
+    p, ul {
+      padding: 1em 1.3em 1em 1.3em;
+      max-width: 50em;
+      margin: auto;
     }
+    ul {
+      padding-left: 3em;
+      padding-top: 0;
+      padding-bottom: .3em;
+    }
+      li {
+        list-style-position: inside;
+        padding: 0;
+      }
   }
 }
 
@@ -38,16 +49,30 @@ section {
 
 
 /* project card styling */
+.project-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+}
+
 .project-card {
   position: relative;
-  border: 2px solid black;
-  width: 310px;
-  height: 375px;
-  padding: 0;
+  border: 2px solid lightgray;
+  width: 320px;
+  height: 410px;
+  padding: 7px 0 7px 0;
+  margin-top: 1.5em;
   text-align: center;
 
   div {
     padding: 0;
+  }
+
+  h4 {
+    padding: .5em 0 .5em 0;
   }
 }
 
@@ -55,7 +80,7 @@ section {
   position: relative;
   width: 300px;
   height: 200px;
-  left: 5px;
+  margin: auto;
 
   img {
     max-width: 100%;
@@ -63,6 +88,13 @@ section {
   }
 }
 
+i {
+  display: block !important;
+}
+
+.favorite-work p {
+  text-align: center;
+}
 .img-summary-wrapper {
   position: relative;
 }
@@ -80,4 +112,47 @@ section {
 
 .img-summary-wrapper:hover .hover-summary {
   opacity: 1;
+}
+
+/* Puzzle Animation */
+@keyframes horizontal {
+  0% {left: 0px;}
+  33% {left: 12px;}
+  67% {left:12px;}
+  100% {left: 0px;}
+}
+
+@keyframes vertical {
+  0% {left: 0px;}
+  33% {left: -13px;}
+  67% {left: -13px;}
+  100% {left: 0px;}
+}
+
+.puzzle-animation {
+  width: 120px;
+  height: 60px;
+  margin: auto;
+  position: relative;
+
+  #horizontal {
+    max-width: 50px;
+    max-height: auto;
+    position: relative;
+    animation-name: horizontal;
+    animation-duration: 3s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+  }
+  #vertical {
+    max-height: 50px;
+    max-width: auto;
+    float: right;
+    transform: translateY(-8px);
+    position: relative;
+    animation-name: vertical;
+    animation-duration: 3s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+  }
 }

@@ -19,6 +19,19 @@
     display: block;
     max-height: 100vh;
     width: 100%;
-
   }
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px dotted rgb(113,174,198);
+  color: rgb(113,174,198);
+  // transition: .5s;
+}
+
+a:hover {
+  // border: 1px dotted lightgray;
+  // font-weight: bold;
+  background-color: rgba(113,174,198, .8);
+  color: black;
 }
