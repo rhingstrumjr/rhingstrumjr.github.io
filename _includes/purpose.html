@@ -20,42 +20,12 @@
     skill seems to be of the utmost importance: research.  My goal is to help
     people learn and do high-quality research.</p>
     <p>I want to create an app that helps people document their research.
-    The app will record what you search, what websites you visited, and guide
+    The app will record what you search, what websites you visit, and guide
     you through thinking about the topic by asking guiding questions.  The output
-    will be a Google Doc with all this information typed out for you.</p>
+    will be a Google Doc with all this information typed out for you to
+    easily share with others.</p>
   </div>
 
-  <div class="favorite-work">
-    <i class="fas fa-book-open fa-3x"></i>
-    <h3>Some of my favorite past puzzles...</h3>
-
-    <!-- Create project cards for my favorite projects -->
-    <div class="project-wrapper">
-
-    {% for item in site.data.favoriteprojects %}
-      <div class="project-card">
-        <h4>{{item.name}}</h4>
-        <div class="img-summary-wrapper">
-
-          <!-- Image of the project -->
-          <div class="project-img">
-            <img src="{{ item.image-link }}" alt="A favorite project">
-          </div>
-          <!-- Summary shows up when hovered over image -->
-          <div class="hover-summary">
-            <p>{{ item.summary }}</p>
-          </div>
-        </div>
-        <!-- Links to the project's GitHub and active site -->
-        <div>See it on <a href="{{ item.github-link }}" target="_blank"><i class="fab fa-github fa-3x"></i></a>
-          </div>
-        <p>See it <a href="{{ item.active-link }}" target="_blank">LIVE</a>!</p>
-      </div>
-    {% endfor %}
-    </div>
-      <p>Browse through <a href="portfolio.html">my portfolio</a> to see the rest!</p>
-
-  </div>
 
   <div class="skills">
     <i class="fas fa-toolbox fa-3x"></i>

@@ -4,4 +4,34 @@ title: Portfolio
 ---
 {% include navigation.html %}
 
-<h1>Portfolio coming soon!</h1>
+<div class="favorite-work">
+  <i class="fas fa-book-open fa-3x"></i>
+  <h3>Some of my favorite past puzzles...</h3>
+
+  <!-- Create project cards for my favorite projects -->
+  <div class="project-wrapper">
+
+  {% for item in site.data.favoriteprojects %}
+    <div class="project-card">
+      <h4>{{item.name}}</h4>
+      <div class="img-summary-wrapper">
+
+        <!-- Image of the project -->
+        <div class="project-img">
+          <img src="{{ item.image-link }}" alt="A favorite project">
+        </div>
+        <!-- Summary shows up when hovered over image -->
+        <div class="hover-summary">
+          <p>{{ item.summary }}</p>
+        </div>
+      </div>
+      <!-- Links to the project's GitHub and active site -->
+      <div>See it on <a href="{{ item.github-link }}" target="_blank"><i class="fab fa-github fa-3x"></i></a>
+        </div>
+      <p>See it <a href="{{ item.active-link }}" target="_blank">LIVE</a>!</p>
+    </div>
+  {% endfor %}
+  </div>
+    <p>Browse through <a href="portfolio.html">my portfolio</a> to see the rest!</p>
+
+</div>
