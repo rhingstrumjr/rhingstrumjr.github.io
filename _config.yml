@@ -1,13 +1,16 @@
 defaults:
-  - scope:
+  -
+    scope:
       path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "_posts"
       type: "posts"
     values:
       layout: "post"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
 
 # Sass settings
 sass:
