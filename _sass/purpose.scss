@@ -10,7 +10,6 @@ section {
       padding-top: 1em;
     }
     i, h3 {
-      display: inline-block;
       width: 100%;
       text-align: center;
     }
@@ -90,6 +89,12 @@ section {
 
 i {
   display: block !important;
+  text-align: center;
+  width: 100%;
+}
+
+h3 {
+  text-align: center;
 }
 
 .favorite-work p {
