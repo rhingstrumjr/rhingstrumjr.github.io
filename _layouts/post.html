@@ -2,10 +2,21 @@
 layout: default
 ---
     {% include navigation.html %}
-<h1>{{ page.title }}</h1>
+<section class="blog-area">
+  <div class="left-gutter">
 
-<p>
-  {{ page.date | date_to_string }}
-</p>
+  </div>
+  <main class="post-area">
+    <h1 class="blog">{{ page.title }}</h1>
 
-{{ content }}
+    <p class="blog">
+      {{ page.date | date_to_string }}
+    </p>
+
+    {{ content }}
+  </main>
+
+  <div class="right-gutter">
+
+  </div>
+</section>
