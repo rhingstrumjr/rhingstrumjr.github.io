@@ -1,23 +1,32 @@
+section {
+  min-height: 80vh;
+}
+
+p, h1 {
+  padding-top: 1em;
+}
+
+.excerpt {
+  padding-top: .2em;
+}
+
+}
 section.blog-area {
   display: grid;
   grid-template-columns: .5fr 4fr .75fr;
   grid-template-areas: 'left-gutter post-area right-gutter'
-
 }
 
 .left-gutter {
   grid-area: left-gutter;
-  background-color: blue;
 }
 
 .post-area {
   grid-area: post-area;
-  background-color: lightgray;
 }
 
 .right-gutter {
   grid-area: right-gutter;
-  background-color: red;
 }
 
 blockquote {

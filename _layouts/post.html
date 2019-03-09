@@ -9,8 +9,8 @@ layout: default
   <main class="post-area">
     <h1 class="blog">{{ page.title }}</h1>
 
-    <p class="blog">
-      {{ page.date | date_to_string }}
+    <p class="date">
+      Posted: {{ page.date | date_to_string }}
     </p>
 
     {{ content }}
