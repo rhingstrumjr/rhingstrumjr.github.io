@@ -1,15 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-02T16:47:10-06:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Purpose Of The App</title><link href="http://localhost:4000/2019/02/23/purpose-of-the-app.html" rel="alternate" type="text/html" title="Purpose Of The App" /><published>2019-02-23T00:00:00-06:00</published><updated>2019-02-23T00:00:00-06:00</updated><id>http://localhost:4000/2019/02/23/purpose-of-the-app</id><content type="html" xml:base="http://localhost:4000/2019/02/23/purpose-of-the-app.html">&lt;p&gt;Here’s the content of this page.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-03T08:03:30-06:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Gamify Flexbox</title><link href="http://localhost:4000/2019/03/03/gamify-flexbox.html" rel="alternate" type="text/html" title="Gamify Flexbox" /><published>2019-03-03T00:00:00-06:00</published><updated>2019-03-03T00:00:00-06:00</updated><id>http://localhost:4000/2019/03/03/gamify-flexbox</id><content type="html" xml:base="http://localhost:4000/2019/03/03/gamify-flexbox.html">&lt;p&gt;I found a fun way to learn using the CSS Flexbox.&lt;/p&gt;
 
-&lt;h1 id=&quot;header-1&quot;&gt;Header 1&lt;/h1&gt;
+&lt;p&gt;Dave Geddes created a game called &lt;a href=&quot;https://mastery.games/p/flexbox-zombies&quot;&gt;Flexbox Zombies&lt;/a&gt;.  It walks you through all of the features of Flexbox while killing off zombie hordes.  It was a fun way to get repetitive practice of using flexbox!&lt;/p&gt;</content><author><name></name></author><summary type="html">I found a fun way to learn using the CSS Flexbox.</summary></entry><entry><title type="html">Purpose Of The App</title><link href="http://localhost:4000/2019/02/23/purpose-of-the-app.html" rel="alternate" type="text/html" title="Purpose Of The App" /><published>2019-02-23T00:00:00-06:00</published><updated>2019-02-23T00:00:00-06:00</updated><id>http://localhost:4000/2019/02/23/purpose-of-the-app</id><content type="html" xml:base="http://localhost:4000/2019/02/23/purpose-of-the-app.html">&lt;p&gt;I heard this piece of advice once.&lt;/p&gt;
 
-&lt;h2 id=&quot;header-2&quot;&gt;Header 2&lt;/h2&gt;
-&lt;h2 id=&quot;header-2-again&quot;&gt;Header 2 again&lt;/h2&gt;
-&lt;h2 id=&quot;does-this-also-have-an-id&quot;&gt;Does this also have an ID?&lt;/h2&gt;
-&lt;p&gt;This is a list!&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;list?&lt;/li&gt;
-  &lt;li&gt;Maybe list?&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Here’s the content of this page.</summary></entry><entry><title type="html">Bananas</title><link href="http://localhost:4000/2019/02/02/bananas.html" rel="alternate" type="text/html" title="Bananas" /><published>2019-02-02T00:00:00-06:00</published><updated>2019-02-02T00:00:00-06:00</updated><id>http://localhost:4000/2019/02/02/bananas</id><content type="html" xml:base="http://localhost:4000/2019/02/02/bananas.html">&lt;p&gt;A banana is an edible fruit – botanically a berry – produced by several kinds
+&lt;blockquote&gt;
+  &lt;p&gt;The first step towards anything is to create it first in your brain.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The idea may have come from Steven Covey.  I don’t remember.  Maybe one day I will look it up.  Let’s get to the heart of the matter.&lt;/p&gt;
+
+&lt;p&gt;I want to create an app to help guide people in research.  The app will track the websites for the user.  If the user finds something useful, it will then place a note with a link to the website.  Also, there will be guiding questions to help eliminate cognitive errors in judgment.&lt;/p&gt;
+
+&lt;p&gt;The app will then create a Google Doc with all the notes and links so the research can be easily shared and reviewed.&lt;/p&gt;
+
+&lt;p&gt;I have a general idea of the layout.  I want a sidebar on the left with buttons for the guiding questions.  I want a menu at the top where the user can sign in and start or continue research.  I want a place for text so the user can see what will be transferred to the Google Doc.  I also want a browser window for the user to use as research.  Below the browser window will be buttons to move the highlighted words in the mini-browser over to the text field.&lt;/p&gt;
+
+&lt;p&gt;The dream is solidifying.  Now, I need to create what I can to expose the next challenges!&lt;/p&gt;</content><author><name></name></author><summary type="html">I heard this piece of advice once.</summary></entry><entry><title type="html">Bananas</title><link href="http://localhost:4000/2019/02/02/bananas.html" rel="alternate" type="text/html" title="Bananas" /><published>2019-02-02T00:00:00-06:00</published><updated>2019-02-02T00:00:00-06:00</updated><id>http://localhost:4000/2019/02/02/bananas</id><content type="html" xml:base="http://localhost:4000/2019/02/02/bananas.html">&lt;p&gt;A banana is an edible fruit – botanically a berry – produced by several kinds
 of large herbaceous flowering plants in the genus Musa.&lt;/p&gt;
 
 &lt;p&gt;In some countries, bananas used for cooking may be called “plantains”,

@@ -4,5 +4,7 @@
   link: /about.html
 - name: Blog
   link: /blog.html
+- name: Learning to Code?
+  link: /learning-to-code.html
 - name: Portfolio
   link: /portfolio.html

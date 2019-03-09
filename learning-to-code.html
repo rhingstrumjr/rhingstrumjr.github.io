@@ -1,0 +1,10 @@
+---
+
+---
+
+{% include navigation.html %}
+<ul>
+  {% for item in site.data.learn-to-code %}
+  <li class="{{ item.class-tags }}"><a href="{{ item.link }}">{{ item.name }}</a> - {{ item.summary }}</li>
+  {% endfor %}
+</ul>
