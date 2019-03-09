@@ -2,15 +2,14 @@ section {
   min-height: 80vh;
 }
 
-p, h1 {
-  padding-top: 1em;
+p, h1, h2 {
+  padding: .5em 0 .5em 0;
 }
 
-.excerpt {
-  padding-top: .2em;
+li p {
+  padding-top: 0;
 }
 
-}
 section.blog-area {
   display: grid;
   grid-template-columns: .5fr 4fr .75fr;
@@ -31,4 +30,5 @@ section.blog-area {
 
 blockquote {
   padding-left: 1.5em;
+  font-style: italic;
 }
