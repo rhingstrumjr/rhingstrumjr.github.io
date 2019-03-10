@@ -1,6 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-08T19:32:59-06:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Gamify Flexbox</title><link href="http://localhost:4000/2019/03/03/gamify-flexbox.html" rel="alternate" type="text/html" title="Gamify Flexbox" /><published>2019-03-03T00:00:00-06:00</published><updated>2019-03-03T00:00:00-06:00</updated><id>http://localhost:4000/2019/03/03/gamify-flexbox</id><content type="html" xml:base="http://localhost:4000/2019/03/03/gamify-flexbox.html">&lt;p&gt;I found a fun way to learn using the CSS Flexbox.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-10T08:24:42-05:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Steps For The Research App</title><link href="http://localhost:4000/2019/03/10/steps-for-the-research-app.html" rel="alternate" type="text/html" title="Steps For The Research App" /><published>2019-03-10T00:00:00-06:00</published><updated>2019-03-10T00:00:00-06:00</updated><id>http://localhost:4000/2019/03/10/steps-for-the-research-app</id><content type="html" xml:base="http://localhost:4000/2019/03/10/steps-for-the-research-app.html">&lt;p&gt;There is one very important task that learning to code brings to your attention: PLANNING!&lt;/p&gt;
 
-&lt;p&gt;Dave Geddes created a game called &lt;a href=&quot;https://mastery.games/p/flexbox-zombies&quot;&gt;Flexbox Zombies&lt;/a&gt;.  It walks you through all of the features of Flexbox while killing off zombie hordes.  It was a fun way to get repetitive practice of using flexbox!&lt;/p&gt;</content><author><name></name></author><summary type="html">I found a fun way to learn using the CSS Flexbox.</summary></entry><entry><title type="html">Purpose Of The App</title><link href="http://localhost:4000/2019/02/23/purpose-of-the-app.html" rel="alternate" type="text/html" title="Purpose Of The App" /><published>2019-02-23T00:00:00-06:00</published><updated>2019-02-23T00:00:00-06:00</updated><id>http://localhost:4000/2019/02/23/purpose-of-the-app</id><content type="html" xml:base="http://localhost:4000/2019/02/23/purpose-of-the-app.html">&lt;p&gt;I heard this piece of advice once.&lt;/p&gt;
+&lt;p&gt;The ability to visualize what you are creating is incredibly helpful.  We need something to head toward, something to give meaning to the steps we take.  Without this measure of meaning, we will easily get distracted and lost along the way.  But, this isn’t the only way planning is helpful.&lt;/p&gt;
+
+&lt;p&gt;Planning allows us to see what we know and what we need to learn.  If you can walk through a task step-by-step in your mind, then you can conclude you know it.  If you can only &lt;em&gt;see the destination&lt;/em&gt; but don’t know the steps to take, then you can conclude that you need to learn it.&lt;/p&gt;
+
+&lt;p&gt;Below will be my current plan for the research-helping app.  I hope the planning process will give me concrete steps to take toward both the creation of the app and the learning of how to program.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-plan&quot;&gt;The Plan&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Design the layout of the app
+    &lt;ul&gt;
+      &lt;li&gt;draw the layout (wireframe???)&lt;/li&gt;
+      &lt;li&gt;include specific html to use (eg) iframe, header, footer)&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;ul&gt;
+      &lt;li&gt;does React/Vue have these components???&lt;/li&gt;
+      &lt;li&gt;Should I use React/Vue/Angular????&lt;/li&gt;
+      &lt;li&gt;Just CSS Grid for placement?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Code the layout
+    &lt;ul&gt;
+      &lt;li&gt;Avoid too much CSS at first - get a working prototype&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Key features of the app
+    &lt;ul&gt;
+      &lt;li&gt;Create Google doc of what the user has typed&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Learn Google doc API
+      - Specific guiding questions to help with research&lt;/li&gt;
+      &lt;li&gt;What’s the goal of this research?
+        &lt;ul&gt;
+          &lt;li&gt;Full screen modal to help the user focus&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;What’s your current idea?
+        &lt;ul&gt;
+          &lt;li&gt;Full screen modal to help the user focus&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;What are some opposing ideas?&lt;/li&gt;
+      &lt;li&gt;What evidence supports your idea?&lt;/li&gt;
+      &lt;li&gt;What evidence supports the opposing ideas?&lt;/li&gt;
+      &lt;li&gt;What can you conclude based on the evidence?&lt;/li&gt;
+      &lt;li&gt;What are your next steps?
+      - Highlight and copy text from the iframe browser and automatically include a citation when pasted&lt;/li&gt;
+      &lt;li&gt;citation APIs????
+      - Continue working on past research&lt;/li&gt;
+      &lt;li&gt;Having a database of Users????&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This is quite a mess.  That means my idea is not fully formed.  I know that drawing out the app and deeply explaining how things will work will be a useful step!  That will be my priority.&lt;/p&gt;
+
+&lt;p&gt;I hope seeing the starting, messy stages of creation will help inspire you to continue to take steps!&lt;/p&gt;
+
+&lt;p&gt;Keep Evolving!&lt;/p&gt;</content><author><name></name></author><summary type="html">There is one very important task that learning to code brings to your attention: PLANNING!</summary></entry><entry><title type="html">Gamify Flexbox</title><link href="http://localhost:4000/2019/03/03/gamify-flexbox.html" rel="alternate" type="text/html" title="Gamify Flexbox" /><published>2019-03-03T00:00:00-06:00</published><updated>2019-03-03T00:00:00-06:00</updated><id>http://localhost:4000/2019/03/03/gamify-flexbox</id><content type="html" xml:base="http://localhost:4000/2019/03/03/gamify-flexbox.html">&lt;p&gt;I found a fun way to learn using the CSS Flexbox.&lt;/p&gt;
+
+&lt;p&gt;Dave Geddes created a game called &lt;a href=&quot;https://mastery.games/p/flexbox-zombies&quot;&gt;Flexbox Zombies&lt;/a&gt;.  It walks you through all of the features of Flexbox while killing off zombie hordes.  It was a fun way to get repetitive practice of using flexbox!&lt;/p&gt;
+
+&lt;p&gt;Keep Evolving!&lt;/p&gt;</content><author><name></name></author><summary type="html">I found a fun way to learn using the CSS Flexbox.</summary></entry><entry><title type="html">Purpose Of The App</title><link href="http://localhost:4000/2019/02/23/purpose-of-the-app.html" rel="alternate" type="text/html" title="Purpose Of The App" /><published>2019-02-23T00:00:00-06:00</published><updated>2019-02-23T00:00:00-06:00</updated><id>http://localhost:4000/2019/02/23/purpose-of-the-app</id><content type="html" xml:base="http://localhost:4000/2019/02/23/purpose-of-the-app.html">&lt;p&gt;I heard this piece of advice once.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;The first step towards anything is to create it first in your brain.&lt;/p&gt;
@@ -14,4 +76,6 @@
 
 &lt;p&gt;I have a general idea of the layout.  I want a sidebar on the left with buttons for the guiding questions.  I want a menu at the top where the user can sign in and start or continue research.  I want a place for text so the user can see what will be transferred to the Google Doc.  I also want a browser window for the user to use as research.  Below the browser window will be buttons to move the highlighted words in the mini-browser over to the text field.&lt;/p&gt;
 
-&lt;p&gt;The dream is solidifying.  Now, I need to create what I can to expose the next challenges!&lt;/p&gt;</content><author><name></name></author><summary type="html">I heard this piece of advice once.</summary></entry></feed>
+&lt;p&gt;The dream is solidifying.  Now, I need to create what I can to expose the next challenges!&lt;/p&gt;
+
+&lt;p&gt;Keep Evolving!&lt;/p&gt;</content><author><name></name></author><summary type="html">I heard this piece of advice once.</summary></entry></feed>

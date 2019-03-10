@@ -14,3 +14,5 @@ The app will then create a Google Doc with all the notes and links so the resear
 I have a general idea of the layout.  I want a sidebar on the left with buttons for the guiding questions.  I want a menu at the top where the user can sign in and start or continue research.  I want a place for text so the user can see what will be transferred to the Google Doc.  I also want a browser window for the user to use as research.  Below the browser window will be buttons to move the highlighted words in the mini-browser over to the text field.
 
 The dream is solidifying.  Now, I need to create what I can to expose the next challenges!
+
+Keep Evolving!

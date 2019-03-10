@@ -1,10 +1,40 @@
 ---
 
 ---
-
 {% include navigation.html %}
-<ul>
-  {% for item in site.data.learn-to-code %}
-  <li class="{{ item.class-tags }}"><a href="{{ item.link }}">{{ item.name }}</a> - {{ item.summary }}</li>
-  {% endfor %}
-</ul>
+<section class="blog-area">
+  <div class="left-gutter">
+
+  </div>
+  <main class="post-area">
+    <div class="recommended-resources">
+      <h2>Recommended Resources for Learning to Code</h2>
+
+      <ul>
+        {% for item in site.data.learn-to-code %}
+        <li class="{{ item.class-tags }}"><a href="{{ item.link }}">{{ item.name }}</a> - {{ item.summary }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="recommended-learning-path">
+      <h2>Recommended Learning Paths</h2>
+      <p>As much as I like the free-flowing path to self-learning, having some guidance can be helpful in regards to learning pace.  This is the benefit of having a curriculum to follow.  What follows is based on the following learning principles:</p>
+      <ol>
+        <li>The Learner should set the ultimate goal</li>
+        <li>Reflection is the job of the learner</li>
+        <li>One must create in order to know</li>
+      </ol>
+      <p>Before you decide to follow any advice here, understand that you must know your <em>Why of Learning</em>.  The tasks given to you won't mean much unless you take the time to think about how they help you toward your ultimate goal.  Think through how you build the mini-projects.  It is through building that one becomes a craftsman and all craftsman begin with smaller projects.  Enjoy!</p>
+    </div>
+    <div class="my-learning-path">
+      <h2>My Learning Path</h2>
+      <p>This is a spot for me to document what I've done.  This will highlight some of the mistakes I've made or what I felt were not helpful to my ultimate goal.  The only reason I am including this section is so you can understand where the recommended section came from.</p>
+    </div>
+
+  </main>
+
+
+  <div class="right-gutter">
+
+  </div>
+</section>
