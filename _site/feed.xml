@@ -1,4 +1,51 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-10T08:24:42-05:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Steps For The Research App</title><link href="http://localhost:4000/2019/03/10/steps-for-the-research-app.html" rel="alternate" type="text/html" title="Steps For The Research App" /><published>2019-03-10T00:00:00-06:00</published><updated>2019-03-10T00:00:00-06:00</updated><id>http://localhost:4000/2019/03/10/steps-for-the-research-app</id><content type="html" xml:base="http://localhost:4000/2019/03/10/steps-for-the-research-app.html">&lt;p&gt;There is one very important task that learning to code brings to your attention: PLANNING!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-12T05:47:09-05:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">The Pragmatic Programmer Part 1</title><link href="http://localhost:4000/2019/03/11/the-pragmatic-programmer-part-1.html" rel="alternate" type="text/html" title="The Pragmatic Programmer Part 1" /><published>2019-03-11T00:00:00-05:00</published><updated>2019-03-11T00:00:00-05:00</updated><id>http://localhost:4000/2019/03/11/the-pragmatic-programmer-part-1</id><content type="html" xml:base="http://localhost:4000/2019/03/11/the-pragmatic-programmer-part-1.html">&lt;p&gt;There has been one book that has been touted as a must read for programmers: &lt;strong&gt;&lt;em&gt;The Pragmatic Programmer&lt;/em&gt;&lt;/strong&gt;.  I wanted to record my learning as I read it.  It will be documented here.&lt;/p&gt;
+
+&lt;h2 id=&quot;chapter-1&quot;&gt;Chapter 1&lt;/h2&gt;
+
+&lt;h3 id=&quot;take-responsibility&quot;&gt;Take responsibility&lt;/h3&gt;
+&lt;p&gt;There is only one person wholly responsible for me: ME!  In the eyes of a programmer, we must take full credit for our work.  This means taking the good &lt;strong&gt;and&lt;/strong&gt; the bad.&lt;/p&gt;
+
+&lt;p&gt;If you run into problems, then think through possible paths to solve the problem.  People will accept mistakes as long as effort is shown to correct them.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-small-leak-leads-to-destruction&quot;&gt;A small leak leads to destruction&lt;/h3&gt;
+&lt;p&gt;This idea hits home a bit hard.  I allow small things to build up.  We think it won’t matter.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;One paper is okay to leave on the table.&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Suddenly the entire table is covered…&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;I’m too tired to put my clothes in the basket.&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Suddenly the floor is covered with dirty clothes…&lt;/p&gt;
+
+&lt;p&gt;One allowance of entropy leads to greater and greater entropy.  Take the time to fix the little things.&lt;/p&gt;
+
+&lt;h3 id=&quot;eyes-on-the-prize&quot;&gt;Eyes on the prize&lt;/h3&gt;
+&lt;p&gt;We need to keep our eyes on the prize.  Don’t lose track of the big picture.  If we get too focused on the minutiae, then our project start to fall apart.&lt;/p&gt;
+
+&lt;h3 id=&quot;keep-learning&quot;&gt;Keep learning&lt;/h3&gt;
+&lt;p&gt;The authors encourage learning a new programming language each year.  That will keep you on your toes.  I like the idea of that.&lt;/p&gt;
+
+&lt;p&gt;The authors also encourage learning about &lt;strong&gt;normal&lt;/strong&gt; people.  We must understand the user just as much as understanding programmers.&lt;/p&gt;
+
+&lt;h3 id=&quot;communicate-with-the-audience&quot;&gt;Communicate with the audience&lt;/h3&gt;
+&lt;p&gt;If you can’t help others see your vision, then you have no worthy vision.&lt;/p&gt;
+
+&lt;p&gt;Communicating is hard.  Take your time when crafting your message.  Understand your audience so you can communicate in a way they understand.&lt;/p&gt;
+
+&lt;p&gt;A good practice to help guide your communication is to develop an outline for your message.  We should never build without a basic outline.  That goes for when we code to when we communicate.  After all, coding is just communicating with a computer…&lt;/p&gt;
+
+&lt;h2 id=&quot;chapter-2&quot;&gt;Chapter 2&lt;/h2&gt;
+&lt;h3 id=&quot;dry-off-your-code&quot;&gt;DRY off your code&lt;/h3&gt;
+&lt;p&gt;DRY stands for &lt;strong&gt;D&lt;/strong&gt;on’t &lt;strong&gt;R&lt;/strong&gt;epeat &lt;strong&gt;Y&lt;/strong&gt;ourself.  The problem with repeating code is when we go back to debug it.  Fixing one error is okay.  Fixing 2 can be manageable.  But once we have to find an error in 3 or more different sections, the frustration level will be sky high!  Therefore, stay &lt;strong&gt;DRY&lt;/strong&gt;!&lt;/p&gt;
+
+&lt;p&gt;Keep Evolving!&lt;/p&gt;</content><author><name></name></author><summary type="html">There has been one book that has been touted as a must read for programmers: The Pragmatic Programmer. I wanted to record my learning as I read it. It will be documented here.</summary></entry><entry><title type="html">Steps For The Research App</title><link href="http://localhost:4000/2019/03/10/steps-for-the-research-app.html" rel="alternate" type="text/html" title="Steps For The Research App" /><published>2019-03-10T00:00:00-06:00</published><updated>2019-03-10T00:00:00-06:00</updated><id>http://localhost:4000/2019/03/10/steps-for-the-research-app</id><content type="html" xml:base="http://localhost:4000/2019/03/10/steps-for-the-research-app.html">&lt;p&gt;There is one very important task that learning to code brings to your attention: PLANNING!&lt;/p&gt;
 
 &lt;p&gt;The ability to visualize what you are creating is incredibly helpful.  We need something to head toward, something to give meaning to the steps we take.  Without this measure of meaning, we will easily get distracted and lost along the way.  But, this isn’t the only way planning is helpful.&lt;/p&gt;
 
