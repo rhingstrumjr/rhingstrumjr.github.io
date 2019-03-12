@@ -1,4 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-12T05:47:09-05:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">The Pragmatic Programmer Part 1</title><link href="http://localhost:4000/2019/03/11/the-pragmatic-programmer-part-1.html" rel="alternate" type="text/html" title="The Pragmatic Programmer Part 1" /><published>2019-03-11T00:00:00-05:00</published><updated>2019-03-11T00:00:00-05:00</updated><id>http://localhost:4000/2019/03/11/the-pragmatic-programmer-part-1</id><content type="html" xml:base="http://localhost:4000/2019/03/11/the-pragmatic-programmer-part-1.html">&lt;p&gt;There has been one book that has been touted as a must read for programmers: &lt;strong&gt;&lt;em&gt;The Pragmatic Programmer&lt;/em&gt;&lt;/strong&gt;.  I wanted to record my learning as I read it.  It will be documented here.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-12T08:16:43-05:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">The Need For Mastering Javascript</title><link href="http://localhost:4000/2019/03/12/the-need-for-mastering-JavaScript.html" rel="alternate" type="text/html" title="The Need For Mastering Javascript" /><published>2019-03-12T00:00:00-05:00</published><updated>2019-03-12T00:00:00-05:00</updated><id>http://localhost:4000/2019/03/12/the-need-for-mastering-JavaScript</id><content type="html" xml:base="http://localhost:4000/2019/03/12/the-need-for-mastering-JavaScript.html">&lt;p&gt;I’ve realized that I really need to understand basic JavaScript.  However, doing tutorials isn’t enough for me.  I’ve found two potentially useful resources:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Wes Bos’ &lt;a href=&quot;https://javascript30.com/&quot;&gt;JavaScript30&lt;/a&gt; course&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.codewars.com&quot;&gt;CodeWars&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;javascript30&quot;&gt;JavaScript30&lt;/h3&gt;
+&lt;p&gt;Projects help you learn.  What I love about this idea is how it incorporates all of the basics of web development.  Wes Bos has designed projects which will also keep your HTML and CSS skills sharp.  (I guess that’s only true if you decide to make the project look good…)&lt;/p&gt;
+
+&lt;p&gt;Here’s a list of the projects I’m looking forward to.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Drum Kit&lt;/li&gt;
+  &lt;li&gt;Ajax Type Ahead (I’ve never used Ajax!)&lt;/li&gt;
+  &lt;li&gt;HTML5 Canvas&lt;/li&gt;
+  &lt;li&gt;Slide in on Scroll&lt;/li&gt;
+  &lt;li&gt;Whack-a-mole!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I’ll be exposing myself to various JavaScript methods and building fun things along the way!&lt;/p&gt;
+
+&lt;h3 id=&quot;codewars&quot;&gt;CodeWars&lt;/h3&gt;
+&lt;p&gt;CodeWars is a website that has the feeling of being a martial arts dojo.  You must pass a test to become a member.  Then, you train by completing various coding challenges.&lt;/p&gt;
+
+&lt;p&gt;The challenges can be tough!  I had one that took me 2 hours to complete, but the learning was worth it.  So far, most of the challenges I’ve had involved manipulating strings and arrays.  Understanding how to work with those data types will be valuable anywhere I go.&lt;/p&gt;
+
+&lt;p&gt;I’ve had an idea of sharing my thought process of the puzzles while I solve it and then breaking down the &lt;strong&gt;best practice&lt;/strong&gt; answer.  It has amazed me how my answer can be 10+ lines of code and see that the same result could be accomplished as a oneliner.&lt;/p&gt;
+
+&lt;p&gt;I hope these resources help you in your journey to understanding JavaScript!&lt;/p&gt;
+
+&lt;p&gt;Keep Evolving!&lt;/p&gt;</content><author><name></name></author><summary type="html">I’ve realized that I really need to understand basic JavaScript. However, doing tutorials isn’t enough for me. I’ve found two potentially useful resources: Wes Bos’ JavaScript30 course CodeWars</summary></entry><entry><title type="html">The Pragmatic Programmer Part 1</title><link href="http://localhost:4000/2019/03/11/the-pragmatic-programmer-part-1.html" rel="alternate" type="text/html" title="The Pragmatic Programmer Part 1" /><published>2019-03-11T00:00:00-05:00</published><updated>2019-03-11T00:00:00-05:00</updated><id>http://localhost:4000/2019/03/11/the-pragmatic-programmer-part-1</id><content type="html" xml:base="http://localhost:4000/2019/03/11/the-pragmatic-programmer-part-1.html">&lt;p&gt;There has been one book that has been touted as a must read for programmers: &lt;strong&gt;&lt;em&gt;The Pragmatic Programmer&lt;/em&gt;&lt;/strong&gt;.  I wanted to record my learning as I read it.  It will be documented here.&lt;/p&gt;
 
 &lt;h2 id=&quot;chapter-1&quot;&gt;Chapter 1&lt;/h2&gt;
 
@@ -44,6 +73,24 @@
 &lt;h2 id=&quot;chapter-2&quot;&gt;Chapter 2&lt;/h2&gt;
 &lt;h3 id=&quot;dry-off-your-code&quot;&gt;DRY off your code&lt;/h3&gt;
 &lt;p&gt;DRY stands for &lt;strong&gt;D&lt;/strong&gt;on’t &lt;strong&gt;R&lt;/strong&gt;epeat &lt;strong&gt;Y&lt;/strong&gt;ourself.  The problem with repeating code is when we go back to debug it.  Fixing one error is okay.  Fixing 2 can be manageable.  But once we have to find an error in 3 or more different sections, the frustration level will be sky high!  Therefore, stay &lt;strong&gt;DRY&lt;/strong&gt;!&lt;/p&gt;
+
+&lt;h3 id=&quot;prototype-prototype-prototype&quot;&gt;Prototype, prototype, prototype…&lt;/h3&gt;
+&lt;p&gt;I want to start off this section by saying the authors separate ideas that I find to be very similar.  They have three different ideas:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Tracer Programs&lt;/li&gt;
+  &lt;li&gt;Prototyping&lt;/li&gt;
+  &lt;li&gt;Simple languages&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Tracer programs are like tracer bullets.  You shoot and see if something works.  Then, you keep building off that design.&lt;/p&gt;
+
+&lt;p&gt;Prototyping is when you build something quick to test it while knowing you won’t actually use it.&lt;/p&gt;
+
+&lt;p&gt;Simple languages is a shorthand way of writing out a program without a computer language’s specific syntax.&lt;/p&gt;
+
+&lt;p&gt;To me, all of these involve building and testing over and over.  I’m reminded of a psychology study where kindergartners were better at solving a problem than graduate students.  The task was to build a tower out of random materials.  The key component of success for the kindergartners was their constant build-and-test mentality.  If the tower stood, then it was a success.  If it fell, then they rebuilt it.  On the other hand, the graduate students spent so much time planning, they missed out on the ability to test and reevaluate.&lt;/p&gt;
+
+&lt;p&gt;We need to keep a mind like the kindergartners.  Don’t become discouraged if your idea falls apart.  Learn from it and build again!&lt;/p&gt;
 
 &lt;p&gt;Keep Evolving!&lt;/p&gt;</content><author><name></name></author><summary type="html">There has been one book that has been touted as a must read for programmers: The Pragmatic Programmer. I wanted to record my learning as I read it. It will be documented here.</summary></entry><entry><title type="html">Steps For The Research App</title><link href="http://localhost:4000/2019/03/10/steps-for-the-research-app.html" rel="alternate" type="text/html" title="Steps For The Research App" /><published>2019-03-10T00:00:00-06:00</published><updated>2019-03-10T00:00:00-06:00</updated><id>http://localhost:4000/2019/03/10/steps-for-the-research-app</id><content type="html" xml:base="http://localhost:4000/2019/03/10/steps-for-the-research-app.html">&lt;p&gt;There is one very important task that learning to code brings to your attention: PLANNING!&lt;/p&gt;
 

@@ -40,5 +40,20 @@ A good practice to help guide your communication is to develop an outline for yo
 ### DRY off your code
 DRY stands for **D**on't **R**epeat **Y**ourself.  The problem with repeating code is when we go back to debug it.  Fixing one error is okay.  Fixing 2 can be manageable.  But once we have to find an error in 3 or more different sections, the frustration level will be sky high!  Therefore, stay **DRY**!
 
+### Prototype, prototype, prototype...
+I want to start off this section by saying the authors separate ideas that I find to be very similar.  They have three different ideas:
+1. Tracer Programs
+2. Prototyping
+3. Simple languages
+
+Tracer programs are like tracer bullets.  You shoot and see if something works.  Then, you keep building off that design.
+
+Prototyping is when you build something quick to test it while knowing you won't actually use it.
+
+Simple languages is a shorthand way of writing out a program without a computer language's specific syntax.
+
+To me, all of these involve building and testing over and over.  I'm reminded of a psychology study where kindergartners were better at solving a problem than graduate students.  The task was to build a tower out of random materials.  The key component of success for the kindergartners was their constant build-and-test mentality.  If the tower stood, then it was a success.  If it fell, then they rebuilt it.  On the other hand, the graduate students spent so much time planning, they missed out on the ability to test and reevaluate.  
+
+We need to keep a mind like the kindergartners.  Don't become discouraged if your idea falls apart.  Learn from it and build again!
 
 Keep Evolving!

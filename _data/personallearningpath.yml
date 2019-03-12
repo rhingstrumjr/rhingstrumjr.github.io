@@ -1,0 +1,35 @@
+- learning-objective: Create a website
+  summary: I started out with Codecademy.  The walkthrough was engaging and provided immediate feedback.
+  resource-link: https://www.codecademy.com/
+  dates: 2016
+  rating: 3
+- learning-objective: Learn to program!
+  summary: I followed along in the book "Learning to Program." It exposed me to a lot of different ideas: command line, JavaScript, regular expressions, code editors...
+  resource-link: https://www.amazon.com/Learning-Program-Steven-Foote/dp/0789753391/
+  dates: Summer of 2016
+  rating: 4
+- learning-objective: Teach coding class
+  summary: My school has interest-classes.  I decided to offer a coding class for the students.  The desire from the students was great, but my skills were not!  I ended up relying on Scratch tutorials for the students to follow.
+  resource-link: https://scratch.mit.edu/
+  dates: 2017-18
+  rating: 3
+- learning-objective: Learn to actually program!
+  summary: I took a class from Udacity over the basics of programming.  It covered a lot!  HTML, CSS, object-oriented Python, commandline, Git, and research.  I felt like a true programmer at times.
+  resource-link: https://www.udacity.com/
+  dates: 2018-19
+  rating: 5
+- learning-objective: Responsive web design
+  summary: I wanted to be able to make websites and graphical user interfaces (GUI).  Therefore, I needed a way to practice using those skills.  I found FreeCodeCamp.org.
+  resource-link: https://www.FreeCodeCamp.org/
+  dates: 2019
+  rating: 4
+- learning-objective: Web interactivity with JavaScript
+  summary: Making websites interactive is important if you want users to actually use something!  Plus, I want to create an app to help with researching.  Therefore, I need to learn how to make websites interactive and respond to user inputs.  I realized my JavaScript skills are lacking...
+  resource-link: https://javascript30.com
+  dates: Spring 2019
+  rating: null
+- learning-objective: JavaScript knowledge
+  summary: I need to understand the bascis of JavaScript.  I found a website with challenges to help me practice and expose me to new ideas: CodeWars.
+  resource-link: https://www.codewars.com
+  dates: Spring 2019
+  rating: null 

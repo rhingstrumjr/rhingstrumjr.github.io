@@ -2,3 +2,15 @@
   summary: A game to help you learn how to use CSS Flexbox.
   link: https://mastery.games/p/flexbox-zombies
   class-tags: front-end css games
+- name: JavaScript30
+  summary: Build 30 projects using vanilla JavaScript.
+  link: https://javascript30.com/
+  class-tags: front-end javascript projects
+- name: CodeWars
+  summary: Code challenges in a language of your choosing with varying difficulty levels.
+  link: https://www.codewars.com
+  class-tags: front-end back-end python javascript games
+- name: Geddski's websites
+  summary: Geddski has a beautiful website devoted to teaching how to create layouts using CSS Grid and Flexbox.
+  link: https://gedd.ski/
+  class-tags: front-end css
