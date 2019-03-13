@@ -56,4 +56,10 @@ To me, all of these involve building and testing over and over.  I'm reminded of
 
 We need to keep a mind like the kindergartners.  Don't become discouraged if your idea falls apart.  Learn from it and build again!
 
+## Chapter 3
+### Learn your tools
+If you don't know how to properly use your tools, then you will never become a true master.  As programmers, we must learn the basic tools.  For example, get to know your code editor and shell.  If you master those by learning the shortcuts, then your productivity will skyrocket!
+
+The best example I have of this is from my Udacity course.  The example was a simple task: move pictures to a new directory.  If I was using the GUI, I could get it done in about a minute.  However, using the shell, I was able to get all the files moved in under 10 seconds.  Typing one line is far faster than creating a new folder, selecting the files, and dragging the files to the new folder using a mouse.  
+
 Keep Evolving!

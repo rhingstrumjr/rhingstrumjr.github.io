@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Evolving Coder</title>
+  <meta name="description" content="Tracking my learning-to-program journey.">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+  <!-- Place favicon.ico in the root directory -->
+
+</head>
+  <body>
+        <nav>
+  
+    <a href="/" >Home</a>
+  
+    <a href="/about.html" >About</a>
+  
+    <a href="/blog.html" >Blog</a>
+  
+    <a href="/learning-to-code.html" >Learning to Code?</a>
+  
+    <a href="/portfolio.html" >Portfolio</a>
+  
+</nav>
+
+<section class="blog-area">
+  <div class="left-gutter">
+
+  </div>
+  <main class="post-area">
+    <h1 class="blog">Codewars Part 1</h1>
+
+    <p class="date">
+      Posted: 12 Mar 2019
+    </p>
+
+    <p><a href="https://www.codewars.com">CodeWars</a> is a website where you are given challenges and must write code that satisfies requirements.</p>
+
+<p>These are some challenges and my thinking behind my answer.</p>
+
+<h3 id="challenge-find-the-smallest-integer-in-the-array">Challenge: Find the smallest integer in the array</h3>
+<p>This is a sorting problem.  My initial reaction is to sort the array from largest to smallest and return the last entry.  I will have to look at some array methods to know what to do.</p>
+
+<p>I searched on <a href="https://www.w3schools.com/js/js_array_sort.asp">W3Schools</a> for the various array methods.</p>
+
+<p>There are several methods of finding the minimum or maximum values of an array.  One is to compare numbers and use the <code class="highlighter-rouge">sort()</code> method.  For numbers, this requires another function to see if the numbers create a negative, 0, or positive number.  This is because of the hierarchy in numbers.  20 &gt; 100 in computer talk.  :)</p>
+
+<p>The method I used was to use the Math method to identify the minimum value.  Here’s the code I copied: <code class="highlighter-rouge">Math.min.apply(null, args)</code>.  I don’t fully understand the apply or the need for <code class="highlighter-rouge">null</code>.  I will look that up.</p>
+
+<p>The <code class="highlighter-rouge">apply()</code> method adds arguments found in an array to an object.  We didn’t have an object, so <code class="highlighter-rouge">null</code> was needed.</p>
+
+<p>Here is the best practice code: <code class="highlighter-rouge">Math.min(...args)</code>.
+The spread, <code class="highlighter-rouge">...</code> gives a comma separated list which the <code class="highlighter-rouge">min()</code> can use.</p>
+
+<h3 id="challenge-write-a-program-that-finds-the-summation-of-every-number-from-1-to-number">Challenge: Write a program that finds the summation of every number from 1 to number</h3>
+
+<p>My idea is to create a variable to keep track of the summation.  Then, run a for-loop until the index variable matches the number given.</p>
+
+<p>Hooray!  That happened to be best practice.  However, I saw some answers using an arrow function and the Fibonacci sequence to solve the problem.</p>
+
+<p>Here’s that code: <code class="highlighter-rouge">const summation = n =&gt; n * (n + 1) / 2;</code>.</p>
+
+<p>I didn’t see that coming.  I will need to spend time looking at Arrow functions.</p>
+
+<p>Keep Evolving!</p>
+
+  </main>
+
+  <div class="right-gutter">
+
+  </div>
+</section>
+
+
+    <!-- This will be the footer on my pages  -->
+<footer>
+<!-- I want these sections:
+1 - contact information
+2 - My name
+3 - some fun animation
+-->
+<aside class="Contact">
+  LinkedIn
+  GitHub
+</aside>
+</footer>
+
+    <script src="/assets/js/vendor/modernizr-3.6.0.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> -->
+    <!-- <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script> -->
+    <script src="/assets/js/plugins.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <!-- <script>
+      window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+      ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script> -->
+  </body>
+</html>
