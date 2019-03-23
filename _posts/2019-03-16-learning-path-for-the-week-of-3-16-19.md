@@ -23,4 +23,9 @@ I ran into one problem.  I had to install all of the googleapis instead of the o
 
 I'm late for my actual job now...
 
+### 3/22/19
+
+I've been going through JavaScript examples on FreeCodeCamp.  I ran into a problem with understanding the code examples.  The examples were mentioning code to get data from various places.  I had no idea what it was saying.  So, I'm going through JavaScript objects to help me understand that.  
+I've written my own GETTER and SETTER.  That helped a bit.  
+
 Keep Evolving!
