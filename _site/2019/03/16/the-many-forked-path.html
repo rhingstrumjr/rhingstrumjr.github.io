@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Evolving Coder</title>
+  <meta name="description" content="Tracking my learning-to-program journey.">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+  <!-- Place favicon.ico in the root directory -->
+
+</head>
+  <body>
+        <nav>
+  
+    <a href="/" >Home</a>
+  
+    <a href="/about.html" >About</a>
+  
+    <a href="/blog.html" >Blog</a>
+  
+    <a href="/learning-to-code.html" >Learning to Code?</a>
+  
+    <a href="/portfolio.html" >Portfolio</a>
+  
+</nav>
+
+<section class="blog-area">
+  <div class="left-gutter">
+
+  </div>
+  <main class="post-area">
+    <h1 class="blog">The Many Forked Path</h1>
+
+    <p class="date">
+      Posted: 16 Mar 2019
+    </p>
+
+    <p>My idea for my research app have changed drastically.  I found out that most major sites do not allow <code class="highlighter-rouge">&lt;iframe&gt;</code> usage.  That destroyed the idea of having the app on its own page.  This caused me to look into creating a Google Chrome Extension.</p>
+
+<p>I’m excited for the Google Extension creation.  I’ve learned a few things so far.  For example, I am learning a lot about using JavaScript for creating HTML Elements and adding interactivity.  Basic web developer skills, but ones that I haven’t used much yet!</p>
+
+<p>Here is where I am currently struggling: learning how to store the data.  My current thinking is to send all the data to the background page in the extension.  From there, I can use the IndexedDB because the extension page will not change.  I just need to send a message from the current tab to the background page that contains the information.  I hope I can get that to work.</p>
+
+<p>Once I have the information stored on the background page’s indexedDB, I should be able to send that data to the Google Docs API.  We’ll see how that goes!</p>
+
+<p>Keep Evolving!</p>
+
+  </main>
+
+  <div class="right-gutter">
+
+  </div>
+</section>
+
+
+    <!-- This will be the footer on my pages  -->
+<footer>
+<!-- I want these sections:
+1 - contact information
+2 - My name
+3 - some fun animation
+-->
+  <div class="left-space">
+
+  </div>
+  <div class="Contact">
+      <a id="profile-link" href="https://github.com/rhingstrumjr" target="_blank"><i class="fab fa-github fa-3x"></i><span class="contact-link">GitHub</span></a>
+  </div>
+  <div class="calling-card">
+    <a href="/">An Evolving Coder Project</a>
+  </div>
+</footer>
+
+    <script src="/assets/js/vendor/modernizr-3.6.0.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> -->
+    <!-- <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script> -->
+    <script src="/assets/js/plugins.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <!-- <script>
+      window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+      ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script> -->
+  </body>
+</html>
